@@ -1,0 +1,167 @@
+[
+    {
+        "isRuleValidationPass": "False",
+        "ruleValidation": [
+            {
+                "RuleId": "NA",
+                "RuleName": "Precheck-1",
+                "ColumnName": "Precheck-Schema",
+                "Validation_Result": "Pass",
+                "Datatype_RuleFile": "NA",
+                "Datatype_OrignalFile": "NA",
+                "Datatype_Match": "NA",
+                "RuleSequence": "NA",
+                "SequenceMatch": "True",
+                "ValidationOperator": "NA",
+                "Orignalsequence": "NA"
+            },
+            {
+                "RuleId": "NA",
+                "RuleName": "Precheck-2",
+                "ColumnName": "Precheck-Datatype",
+                "Validation_Result": "Fail",
+                "Datatype_RuleFile": "NA",
+                "Datatype_OrignalFile": "NA",
+                "Datatype_Match": "Fail",
+                "RuleSequence": "NA",
+                "SequenceMatch": "NA",
+                "ValidationOperator": "NA",
+                "Orignalsequence": "NA"
+            },
+            {
+                "RuleId": "1",
+                "RuleName": "test_data.csv_Id validation",
+                "ColumnName": "Id",
+                "Validation_Result": "Pass",
+                "Datatype_RuleFile": "int",
+                "Datatype_OrignalFile": "string",
+                "Datatype_Match": "False",
+                "RuleSequence": "1",
+                "SequenceMatch": "True",
+                "ValidationOperator": "None",
+                "Orignalsequence": "1"
+            },
+            {
+                "RuleId": "2",
+                "RuleName": "test_data.csv_first_name validation",
+                "ColumnName": "first_name",
+                "Validation_Result": "Pass",
+                "Datatype_RuleFile": "string",
+                "Datatype_OrignalFile": "string",
+                "Datatype_Match": "True",
+                "RuleSequence": "2",
+                "SequenceMatch": "True",
+                "ValidationOperator": "None",
+                "Orignalsequence": "2"
+            },
+            {
+                "RuleId": "3",
+                "RuleName": "test_data.csv_last_name validation",
+                "ColumnName": "last_name",
+                "Validation_Result": "Pass",
+                "Datatype_RuleFile": "string",
+                "Datatype_OrignalFile": "string",
+                "Datatype_Match": "True",
+                "RuleSequence": "3",
+                "SequenceMatch": "True",
+                "ValidationOperator": "None",
+                "Orignalsequence": "3"
+            },
+            {
+                "RuleId": "4",
+                "RuleName": "test_data.csv_company_name validation",
+                "ColumnName": "company_name",
+                "Validation_Result": "Pass",
+                "Datatype_RuleFile": "string",
+                "Datatype_OrignalFile": "string",
+                "Datatype_Match": "True",
+                "RuleSequence": "4",
+                "SequenceMatch": "True",
+                "ValidationOperator": "None",
+                "Orignalsequence": "4"
+            },
+            {
+                "RuleId": "5",
+                "RuleName": "test_data.csv_address validation",
+                "ColumnName": "address",
+                "Validation_Result": "Pass",
+                "Datatype_RuleFile": "string",
+                "Datatype_OrignalFile": "string",
+                "Datatype_Match": "True",
+                "RuleSequence": "5",
+                "SequenceMatch": "True",
+                "ValidationOperator": "None",
+                "Orignalsequence": "5"
+            },
+            {
+                "RuleId": "6",
+                "RuleName": "test_data.csv_city validation",
+                "ColumnName": "city",
+                "Validation_Result": "Pass",
+                "Datatype_RuleFile": "string",
+                "Datatype_OrignalFile": "string",
+                "Datatype_Match": "True",
+                "RuleSequence": "6",
+                "SequenceMatch": "True",
+                "ValidationOperator": "None",
+                "Orignalsequence": "6"
+            },
+            {
+                "RuleId": "7",
+                "RuleName": "test_data.csv_county validation",
+                "ColumnName": "county",
+                "Validation_Result": "Pass",
+                "Datatype_RuleFile": "string",
+                "Datatype_OrignalFile": "string",
+                "Datatype_Match": "True",
+                "RuleSequence": "7",
+                "SequenceMatch": "True",
+                "ValidationOperator": "None",
+                "Orignalsequence": "7"
+            },
+            {
+                "RuleId": "8",
+                "RuleName": "test_data.csv_phone1 validation",
+                "ColumnName": "phone1",
+                "Validation_Result": "Pass",
+                "Datatype_RuleFile": "string",
+                "Datatype_OrignalFile": "string",
+                "Datatype_Match": "True",
+                "RuleSequence": "8",
+                "SequenceMatch": "True",
+                "ValidationOperator": "None",
+                "Orignalsequence": "8"
+            },
+            {
+                "RuleId": "9",
+                "RuleName": "test_data.csv_email validation",
+                "ColumnName": "email",
+                "Validation_Result": "Pass",
+                "Datatype_RuleFile": "string",
+                "Datatype_OrignalFile": "string",
+                "Datatype_Match": "True",
+                "RuleSequence": "9",
+                "SequenceMatch": "True",
+                "ValidationOperator": "None",
+                "Orignalsequence": "9"
+            }
+        ],
+        "isSchemaValidationPass": "True",
+        "schemaValidation": [],
+        "isDatatypeValidationPass": "False",
+        "DatatypeValidation": [
+            {
+                "RuleID": "1",
+                "Sequence": "1",
+                "DataAttribute": "Id",
+                "DataType": "int",
+                "CsvSequence": "1",
+                "CSV_Col_Name": "Id",
+                "CsvDataType": "string",
+                "Data_Type_Match": "False",
+                "Column_Match": "True",
+                "SequenceMatch": "True"
+            }
+        ]
+    }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "RuleID": "1",
+        "RuleName": "organizations_record.csv_Id validation",
+        "DataAttribute": "Id",
+        "DataType": "int",
+        "ValidationOperator": "None",
+        "ValueToBeMatch": "",
+        "Order": "1",
+        "DataObject": "table",
+        "DataSource": "organizations_record.csv",
+        "Sequence": "1"
+    },
+    {
+        "RuleID": "2",
+        "RuleName": "organizations_record.csv_Organization_Id validation",
+        "DataAttribute": "Organization_Id",
+        "DataType": "string",
+        "ValidationOperator": "None",
+        "ValueToBeMatch": "",
+        "Order": "2",
+        "DataObject": "table",
+        "DataSource": "organizations_record.csv",
+        "Sequence": "2"
+    },
+    {
+        "RuleID": "3",
+        "RuleName": "organizations_record.csv_Name validation",
+        "DataAttribute": "Name",
+        "DataType": "string",
+        "ValidationOperator": "None",
+        "ValueToBeMatch": "",
+        "Order": "3",
+        "DataObject": "table",
+        "DataSource": "organizations_record.csv",
+        "Sequence": "3"
+    },
+    {
+        "RuleID": "4",
+        "RuleName": "organizations_record.csv_Website validation",
+        "DataAttribute": "Website",
+        "DataType": "string",
+        "ValidationOperator": "None",
+        "ValueToBeMatch": "",
+        "Order": "4",
+        "DataObject": "table",
+        "DataSource": "organizations_record.csv",
+        "Sequence": "4"
+    },
+    {
+        "RuleID": "5",
+        "RuleName": "organizations_record.csv_Country validation",
+        "DataAttribute": "Country",
+        "DataType": "string",
+        "ValidationOperator": "None",
+        "ValueToBeMatch": "",
+        "Order": "5",
+        "DataObject": "table",
+        "DataSource": "organizations_record.csv",
+        "Sequence": "5"
+    },
+    {
+        "RuleID": "6",
+        "RuleName": "organizations_record.csv_Description validation",
+        "DataAttribute": "Description",
+        "DataType": "string",
+        "ValidationOperator": "None",
+        "ValueToBeMatch": "",
+        "Order": "6",
+        "DataObject": "table",
+        "DataSource": "organizations_record.csv",
+        "Sequence": "6"
+    },
+    {
+        "RuleID": "7",
+        "RuleName": "organizations_record.csv_Founded validation",
+        "DataAttribute": "Founded",
+        "DataType": "int",
+        "ValidationOperator": "None",
+        "ValueToBeMatch": "",
+        "Order": "7",
+        "DataObject": "table",
+        "DataSource": "organizations_record.csv",
+        "Sequence": "7"
+    },
+    {
+        "RuleID": "8",
+        "RuleName": "organizations_record.csv_Industry validation",
+        "DataAttribute": "Industry",
+        "DataType": "string",
+        "ValidationOperator": "None",
+        "ValueToBeMatch": "",
+        "Order": "8",
+        "DataObject": "table",
+        "DataSource": "organizations_record.csv",
+        "Sequence": "8"
+    },
+    {
+        "RuleID": "9",
+        "RuleName": "organizations_record.csv_Number_of_employees validation",
+        "DataAttribute": "Number_of_employees",
+        "DataType": "int",
+        "ValidationOperator": "None",
+        "ValueToBeMatch": "",
+        "Order": "9",
+        "DataObject": "table",
+        "DataSource": "organizations_record.csv",
+        "Sequence": "9"
+    }
+]
